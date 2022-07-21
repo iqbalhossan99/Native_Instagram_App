@@ -4,9 +4,15 @@ import HomeScreen from "./src/screens/Home/HomeScreen";
 
 export default function App() {
   return (
-    <View>
+    <View style={styles.text}>
       <StatusBar style="auto" />
       <HomeScreen />
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  text: {
+    color: "#fff",
+  },
+});
