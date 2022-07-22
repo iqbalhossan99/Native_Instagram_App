@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, View } from "react-native";
-import { StoryData } from "../../../assets/data/StoryData";
+import { StoryData } from "../../../assets/data/Data";
 import Story from "../Story/Story";
 import styles from "./styles";
 

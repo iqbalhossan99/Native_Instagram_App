@@ -9,7 +9,7 @@ const Header = () => {
     <View style={styles.headerContainer}>
       <Image
         style={styles.logo}
-        source={require("../../../assets/instagram-logo.png")}
+        source={require("../../../assets/img/instagram-logo.png")}
       />
       <View style={styles.rHead}>
         <TouchableOpacity>
