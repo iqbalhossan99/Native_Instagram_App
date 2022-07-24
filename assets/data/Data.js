@@ -138,6 +138,19 @@ export const BlogData = [
     username: "Rakin Afser",
     userImg: "https://bitsofts.link/uploads/rakin_7c9429ae75.jpg",
   },
+  {
+    img: "https://image.shutterstock.com/z/stock-photo-react-native-inscription-against-laptop-and-code-background-learn-react-framework-computer-1930384340.jpg",
+    title: "When we use ScrollView over FlatList or vice-versa ?",
+    desc: `ScrollView: The ScrollView Component is an inbuilt react-native component that serves as a generic scrollable container, with the ability to scroll child components and views inside it.
+    When to use ScrollView?
+    ScrollView loads all the content, i.e. the data to be displayed on screen all at once. This is done immediately after the component is loaded. Thus, the entire content (data list) is mounted altogether. Now if this data list contains many items, it would automatically cause performance issues. So it is not preferred to use ScrollView if you have a hundred or a thousand items to be displayed on the screen. It is used when you have fewer data items on the list of a limited size.
+    Flatlist: The FlatList Component is an inbuilt react-native component that displays similarly structured data in a scrollable list. It shows only those elements that are currently being displayed on the screen.
+    When to use FlatList?
+    As opposed to the ScrollView, the FlatList renders only those elements that are currently being displayed on the screen (default: 10 items). Thus, it does not have any impact on the performance of the application. So, it is preferable to use the FlatList Component to display a large list of data. 
+    `,
+    username: "Rakin Afser",
+    userImg: "",
+  },
 
   {
     img: "https://image.shutterstock.com/z/stock-photo-react-native-inscription-against-laptop-and-code-background-learn-react-framework-computer-1930384340.jpg",

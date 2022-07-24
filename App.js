@@ -1,18 +1,14 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import HomeScreen from "./src/screens/Home/HomeScreen";
+import { View } from "react-native";
+import Router from "./src/navigations/Router";
 
 export default function App() {
   return (
-    <View style={styles.text}>
+    <View>
       <StatusBar style="auto" />
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <Router />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  text: {
-    color: "#fff",
-  },
-});

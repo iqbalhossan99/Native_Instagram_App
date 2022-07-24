@@ -7,7 +7,7 @@ import Avatar from "../Avatar/Avatar";
 import LikeComment from "../LikeComment/LikeComment";
 
 const Post = ({ post }) => {
-  console.log(post);
+  // console.log(post);
   const { img, title, desc, username, userImg } = post;
   const maxDesc = desc.slice(0, 100);
   return (
