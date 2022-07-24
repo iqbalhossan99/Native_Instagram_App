@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import HomeScreen from "./src/screens/Home/HomeScreen";
 import { View } from "react-native";
